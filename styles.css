@@ -1,18 +1,69 @@
 /*  your css code here. If applicable */
 body{
 	background-color:#f5f5f5;
+	margin:0;
+	font-family:Arial, sans-serif;
 }
 .header{
 	background-color:#011e29;
 	text-align:center;
 	color:white;
-    font-family:sans-serif,alias;
+    
 	padding:20px;
-	font-size:15px;
+	
 
+}
+main {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	text-align: center;
+}
+.latest-news-section {
+    flex: 1; 
+    min-width: 200px;
+}
+
+.latest-news-section ul {
+    padding: 10px;
+}
+
+.latest-news-section li {
+    padding: 5px 0;
+}
+
+.main-article-section {
+    flex: 2;
+    min-width: 300px;
+}
+
+.pictorial-news-section {
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+}
+
+.pictorial-news-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 h3{
 	font-family:sans-serif,alias;
 	font-size:14px;
 }
+section::after{
+	content:"";
+	display:t
+}
+
 
